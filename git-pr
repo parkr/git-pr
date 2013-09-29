@@ -16,7 +16,7 @@ class GitPr
 
   def initialize(args = ARGV)
     @args = args
-    raise ArgumentError, "Need to specify a repo num" if args.size < 1
+    raise ArgumentError, "Need to specify a PR num" if args.size < 1
     @repo_name = repo_name
   end
 
