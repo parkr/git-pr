@@ -11,7 +11,7 @@ GEM_DEPS.each do |gem|
 end
 
 class GitPr
-  VERSION         = "0.0.1"
+  VERSION         = "0.0.2"
   GIT_REPO_REGEXP = /(git:\/\/|https:\/\/|git@)([A-Za-z0-9.]+)(\/|:)([A-Za-z0-9\-_]+)\/([A-Za-z0-9\-_]+)\.git/
 
   def initialize(args = ARGV)
